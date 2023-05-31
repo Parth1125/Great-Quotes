@@ -14,6 +14,7 @@ const NewQuote = React.lazy(() => import("./pages/NewQuote"));
 const NotFound = React.lazy(() => import("./pages/NotFound"));
 
 function App() {
+  console.log("hello  everyone!");
   return (
     <Layout>
       <Suspense
